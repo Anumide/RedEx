@@ -1,0 +1,120 @@
+body{
+    margin: 0 auto;
+    background: #eee;
+    font-family: Montserrat, Berlin Sans FB;
+}
+
+.container{
+    margin: 5px auto;
+    position: relative;
+    width: 80%;
+    height: 600px;
+    background: #fff;
+}
+
+.first{
+    display: block;
+    position: absolute;
+    width: 98%;
+    height: 30px;
+    top: 5px;
+    left: 0;
+    padding: 12px;
+    border-bottom: 1px solid #f7f7f7;
+    box-shadow: 0px 1px 4px rgba(198, 198, 198, 0.25);
+}
+
+.first img{
+    width: 70px;
+}
+
+.second{
+    position: absolute;
+    top: 110px;
+    left: 10px;
+    line-height: 0.7em
+}
+
+.second p{
+    margin: o;
+    font-style: normal;
+    font-size: 0.9em;
+}
+
+.second h3{
+    margin: 0;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+#unique{
+    color: #0063f8;
+}
+
+#alone{
+    position: absolute;
+    top: 180px;
+    left: 10px;
+    font-weight: 100;
+    font-size: 0.8em;
+}
+
+form{
+    position: absolute;
+    top: 300px;
+    left: 10px;
+    line-height: 0.6em;
+    width: 70%;
+}
+
+form p{
+    font-size: 0.9em;
+}
+
+form input{
+    padding: 10px;
+    width: 40%;
+    color: #cbcbcb; 
+    border: 2px solid #e6e6e6;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 0.7em;
+    margin: o;
+    
+}
+
+form button{
+    padding: 8px;
+    background: #0066fe;
+    border-radius: 5px;
+    border: 0;
+    color: #fff;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.back{
+    position: absolute;
+    top: 0.1%;
+    right: 0.0001%;
+}
+
+.front{
+    position: absolute;
+    top: 20%;
+    right: 19%;
+/*
+    top: 150px;
+    right: 160px;
+    
+*/
+}
+
+#last{
+    position: absolute;
+    color: #aeaeae;
+    bottom: 0;
+    right: 320px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
